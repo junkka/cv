@@ -1,7 +1,0 @@
----
-title: Curriculum vitae
-author: Johan Junkka
-output: 
-  - pdf_cv
-  - html_cv
----
