@@ -5,13 +5,11 @@
 # a custom render
 
 html_cv <- function(yaml_path = "content"){
-  make_yaml(yaml_path)
+  tempyaml <- make_yaml(yaml_path)
   rmarkdown::html_document(
-    fig_width = 6.5,
-    fig_height = 4,
     css = "template/style.css",
     template = 'template/template.html',
-    pandoc_args = file.path(tempdir(), "temp.yaml"),
+    pandoc_args = tempyaml,
     mathjax = NULL)
 }
 
@@ -26,14 +24,13 @@ make_yaml <- function(path){
     write(b, file = file.path(temp_dir, temp_file), append = TRUE)
   })
   write("---", file = file.path(temp_dir, temp_file), append = TRUE)
+  return(file.path(temp_dir, temp_file))
 }
 
 pdf_cv <- function(yaml_path = "content"){
-  make_yaml(yaml_path)
+  tempyaml <- make_yaml(yaml_path)
   rmarkdown::pdf_document(
-    fig_width = 6.5,
-    fig_height = 4,
     latex_engine = "xelatex",
     template = 'template/template.tex',
-    pandoc_args = file.path(tempdir(), "temp.yaml"))
+    pandoc_args = tempyaml)
 }
