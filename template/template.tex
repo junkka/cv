@@ -97,7 +97,7 @@ $info.adress4$\\ % Your address
 [.2cm]
 Phone: \texttt{$info.phone$}\\ % Your phone number
 Email: \href{mailto:#}{$info.email$}\\ % Your email address
-\textsc{url}: $info.url$\\ % Your academic/personal website
+\textsc{url}: \href{http://$info.url$}{$info.url$}\\ % Your academic/personal website
 
 
 \vspace{40pt}
@@ -150,20 +150,22 @@ $endfor$
 
 \section*{Publications}
 
-% \subsection*{Journal articles}
+\subsection*{Journal articles}
 
-% $for(references)$
-% $if(references.container-title)$
-% \years{$references.issued$}
-%   $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
-%   ($references.issued$) “$references.title$" \emph{$references.container-title$}\\
-% $endif$
-% $endfor$
+$for(references)$
+$if(references.article-journal)$
+\years{$references.issued$}
+  $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+  ($references.issued$) “$references.title$". 
+  \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
+  $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$ \\
+$endif$
+$endfor$
 
 \subsection*{Software}
 
 $for(references)$
-$if(references.URL)$
+$if(references.software)$
 \years{$references.issued$}
   $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$. ($references.issued$) “$references.title$“ $references.URL$\\
 $endif$
@@ -172,7 +174,7 @@ $endfor$
 \section*{Conferences \& Invited presentations}
 
 $for(talks)$
-\years{$talks.year$} “$talks.title$“, \emph{$talks.event$}, $talks.place$\\
+\years{$talks.year$} “$talks.title$“, \emph{$talks.event$}, $talks.place$. $if(talks.url)$$talks.url$$endif$\\
 $endfor$
 
 

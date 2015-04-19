@@ -24,3 +24,9 @@ talks:
     title: "Sekularisering, genus och fertilitetsnedgång i Sverige 1890-1930"
     event: Demografiska Databasens Webinarium
     place: "Demographic database, Umeå University, Sweden"
+  - year: 2015
+    month: April
+    title: Starting with Git
+    event: CEDAR Fertility Group Meeting
+    place: Centre for Demographic and Ageing Research, Umeå University, Sweden
+    url: http://johanjunkka.com/git-pres

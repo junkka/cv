@@ -189,7 +189,7 @@ $endif$
   <p>
     $info.phone$<br>
     <a href="mailto:#">$info.email$</a><br>
-    $info.url$
+    <a href="http://$info.url$">$info.url$</a>
   </p>  
   <div style="margin-top:30px;">
     <p>
@@ -247,22 +247,26 @@ $body$
 
 <div class="col-md-12">
   <h2>Publications</h2>
-<!--   <h3>Papers</h3>
+  <h3>Papers</h3>
   $for(references)$
-  $if(references.container-title)$
+  $if(references.article-journal)$
   <p class="indented">
-  $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
-  ($references.issued$) "$references.title$" <em>$references.container-title$</em>
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+    ($references.issued$) 
+    "$references.title$". 
+    <em>$references.container-title$</em>$if(references.volume)$, $references.volume$ $endif$$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
+    $if(references.doi)$ doi:<a href="http://dx.doi.org/$references.doi$">$references.doi$</a>$endif$
+    $if(references.url)$ Retrieved from $references.url$$endif$
   </p>
   $endif$
   $endfor$
- -->
+
   <h3>Software</h3>
   $for(references)$
-  $if(references.URL)$
+  $if(references.software)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
-    ($references.issued$) "$references.title$" $references.URL$
+    ($references.issued$) "$references.title$". <a href="https://$references.URL$">https://$references.URL$</a>
   </p>
   $endif$
   $endfor$
@@ -277,7 +281,10 @@ $body$
       <p>$talks.month$ $talks.year$</p>
     </div>
     <div class="col-sm-9 indented">
-      <p>"$talks.title$" <em>$talks.event$ </em> $talks.place$</p>
+      <p>
+        "$talks.title$" <em>$talks.event$ </em> $talks.place$.
+        $if(talks.url)$$talks.url$$endif$
+      </p>
     </div>
   </div>
   $endfor$

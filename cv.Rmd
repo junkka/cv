@@ -1,5 +1,6 @@
 ---
 title: Curriculum vitae
+title-prefix: Johan Junkka
 author: Johan Junkka
 output: 
   - pdf_cv

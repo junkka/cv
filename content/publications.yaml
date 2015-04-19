@@ -6,10 +6,12 @@ references:
         given: Johan
     URL: "https://github.com/junkka/ehahelper"
     issued: 2014
-  - id: junkka2015c
+    software: true
+  - id: junkka2015a
     title: sweboundaries - A R package for extracting Swedish hisorical administrative boundaries
     author:
       - family: Junkka 
         given: Johan
     URL: "https://github.com/junkka/sweboundaries"
     issued: 2015
+    software: true
