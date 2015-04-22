@@ -150,17 +150,17 @@ $endfor$
 
 \section*{Publications}
 
-\subsection*{Journal articles}
+% \subsection*{Journal articles}
 
-$for(references)$
-$if(references.article-journal)$
-\years{$references.issued$}
-  $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
-  ($references.issued$) “$references.title$". 
-  \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
-  $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$ \\
-$endif$
-$endfor$
+% $for(references)$
+% $if(references.article-journal)$
+% \years{$references.issued$}
+%   $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+%   ($references.issued$) “$references.title$". 
+%   \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
+%   $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$ \\
+% $endif$
+% $endfor$
 
 \subsection*{Software}
 
@@ -198,13 +198,13 @@ $for(teaching)$
 \textsc{$teaching.course$} $if(teaching.program)$$teaching.program$, $endif$ $if(teaching.place)$$teaching.place$$endif$\\
 $endfor$
 
+
 \section*{Service to the profession}
 
 $for(other)$
 \years{$other.from$-$other.to$}\textsc{$other.title$} $other.university$\\
 $endfor$
 
-\vspace{20pt}
 
 \section*{Affiliations}
 

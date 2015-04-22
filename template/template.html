@@ -247,7 +247,7 @@ $body$
 
 <div class="col-md-12">
   <h2>Publications</h2>
-  <h3>Papers</h3>
+  <!-- <h3>Papers</h3> 
   $for(references)$
   $if(references.article-journal)$
   <p class="indented">
@@ -259,14 +259,14 @@ $body$
     $if(references.url)$ Retrieved from $references.url$$endif$
   </p>
   $endif$
-  $endfor$
+  $endfor$-->
 
   <h3>Software</h3>
   $for(references)$
   $if(references.software)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
-    ($references.issued$) "$references.title$". <a href="https://$references.URL$">https://$references.URL$</a>
+    ($references.issued$) "$references.title$". $references.URL$
   </p>
   $endif$
   $endfor$
@@ -314,7 +314,7 @@ $body$
       <p>$other.from$ - $other.to$</p>
     </div>
     <div class="col-sm-9 indented">
-      <p><strong>$other.title$</strong> $other.university$</p>
+      <p>$other.title$, $other.university$</p>
     </div>
   </div>
   $endfor$
