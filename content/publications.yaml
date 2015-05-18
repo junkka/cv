@@ -15,3 +15,14 @@ references:
     URL: "https://github.com/junkka/sweboundaries"
     issued: 2015
     software: true
+  - id: junkka2015b
+    article-journal: true
+    type: "article-journal"
+    title: "Gender and fertility within the free churches in the Sundsvall region, Sweden, 1860-1921"
+    container-title: The History of the Family
+    author:
+      - family: Junkka
+        given: Johan
+      - family: Edvinsson
+        given: Sören
+    issued: in press
