@@ -195,7 +195,7 @@ $for(teaching)$
 \years{$if(teaching.year)$ $teaching.year$ 
         $else$ $teaching.from$ - $teaching.to$
         $endif$}
-\textsc{$teaching.course$} $if(teaching.program)$$teaching.program$, $endif$ $if(teaching.place)$$teaching.place$$endif$\\
+\textsc{$teaching.course$} $if(teaching.program)$, $teaching.program$$endif$$if(teaching.place)$, $teaching.place$$endif$. $if(teaching.url)$$teaching.url$$endif$\\
 $endfor$
 
 
