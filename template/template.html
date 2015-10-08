@@ -257,7 +257,8 @@ $body$
     "$references.title$". 
     <em>$references.container-title$</em>$if(references.volume)$, $references.volume$ $endif$$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
     $if(references.doi)$ doi:<a href="http://dx.doi.org/$references.doi$">$references.doi$</a>$endif$
-    $if(references.url)$ Retrieved from $references.url$$endif$
+    $if(references.url)$ Retrieved from $references.url$$endif$ 
+    $if(references.URL)$<a href="http://johanjunkka.com/cv/$references.URL$">$references.URL$</a>$endif$ 
   </p>
   $endif$
   $endfor$

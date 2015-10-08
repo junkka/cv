@@ -27,6 +27,7 @@ references:
         given: Sören
     issued: 2015
     doi: 10.1080/1081602X.2015.1043929
+    URL: "papers/junkka_2015.pdf"
   - id: junkka2015c
     title: freechurchfertility - R scripts for replicating analysis in "Gender and fertility within the free churches in the Sundsvall region, Sweden, 1860-1921"
     author:
