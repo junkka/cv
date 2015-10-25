@@ -11,4 +11,4 @@ teaching:
   - course: Using R at cedaR
     place: Umeå University, Sweden
     year: 2015
-    url: https://dl.dropboxusercontent.com/u/12260536/ddb_course/intro.html
+    url: https://github.com/cedarfoundation/cedar_dplyr
