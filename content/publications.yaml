@@ -1,12 +1,4 @@
 references:
-  - id: junkka2014
-    title: ehahleper - A R helper package for event history analysis
-    author:
-      - family: Junkka 
-        given: Johan
-    URL: "https://github.com/junkka/ehahelper"
-    issued: 2014
-    software: true
   - id: junkka2015a
     title: sweboundaries - A R package for extracting Swedish hisorical administrative boundaries
     author:
@@ -35,4 +27,12 @@ references:
         given: Johan
     URL: "https://github.com/junkka/freechurchfertility"
     issued: 2015
+    software: true
+  - id: junkka2014
+    title: ehahleper - A R helper package for event history analysis
+    author:
+      - family: Junkka 
+        given: Johan
+    URL: "https://github.com/junkka/ehahelper"
+    issued: 2014
     software: true

@@ -1,14 +1,14 @@
 teaching:
-  - course: Demokrati, individ och samhälle
-    program: Teachers education
+  - course: Using R at cedaR
     place: Umeå University, Sweden
-    year: 2013
+    year: 2015
+    url: https://github.com/cedarfoundation/cedar_dplyr
   - course: Demography and Event History Analysis using R
     program: EHPS-Net program
     place: Umeå University, Sweden
     year: 2015
     url: http://capa.ddb.umu.se/cedar15/
-  - course: Using R at cedaR
+  - course: Demokrati, individ och samhälle
+    program: Teachers education
     place: Umeå University, Sweden
-    year: 2015
-    url: https://github.com/cedarfoundation/cedar_dplyr
+    year: 2013
