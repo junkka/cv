@@ -316,7 +316,9 @@ $body$
       <p>$other.from$ - $other.to$</p>
     </div>
     <div class="col-sm-9 indented">
-      <p>$other.title$, $other.university$</p>
+      <p>$other.title$$if(other.university)$, $other.university$$endif$ 
+      $if(other.url)$ $other.url$ $endif$
+      </p>
     </div>
   </div>
   $endfor$

@@ -203,7 +203,8 @@ $endfor$
 \section*{Service to the profession}
 
 $for(other)$
-\years{$other.from$-$other.to$}\textsc{$other.title$} $other.university$\\
+\years{$other.from$-$other.to$}\textsc{$other.title$} $if(other.university)$$other.university$$endif$
+$if(other.url)$ $other.url$$endif$\\
 $endfor$
 
 
