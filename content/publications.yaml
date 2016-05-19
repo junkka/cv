@@ -1,10 +1,10 @@
 references:
   - id: junkka2015a
-    title: sweboundaries - A R package for extracting Swedish hisorical administrative boundaries
+    title: "histmaps - A R data package of Swedish historical administrative boundaries for parishes and counties 1634-1990"
     author:
       - family: Junkka 
         given: Johan
-    URL: "https://github.com/junkka/sweboundaries"
+    URL: "https://github.com/junkka/histmaps"
     issued: 2015
     software: true
   - id: junkka2015b
