@@ -17,7 +17,10 @@ references:
         given: Johan
       - family: Edvinsson
         given: Sören
-    issued: 2015
+    issued: 2016
+    volume: 21
+    issue: 2
+    pages: 243-266
     doi: 10.1080/1081602X.2015.1043929
     URL: "papers/junkka_2015.pdf"
   - id: junkka2015c
