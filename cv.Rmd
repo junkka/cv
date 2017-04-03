@@ -2,6 +2,9 @@
 title: Curriculum vitae
 title-prefix: Johan Junkka
 author: Johan Junkka
+author-meta: Johan Junkka
+date: '`r format(Sys.time(), "%B %e, %Y")`'
+date-meta: '`r format(Sys.time(), "%Y-%m-%d")`'
 output: 
   - pdf_cv
   - html_cv
