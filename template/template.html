@@ -258,7 +258,7 @@ $body$
     <em>$references.container-title$</em>$if(references.volume)$, $references.volume$ $endif$$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
     $if(references.doi)$ doi:<a href="http://dx.doi.org/$references.doi$">$references.doi$</a>$endif$
     $if(references.url)$ Retrieved from $references.url$$endif$ 
-    $if(references.URL)$<a href="http://johanjunkka.com/cv/$references.URL$">$references.URL$</a>$endif$ 
+    <!--$if(references.URL)$<a href="$references.URL$">$references.URL$</a>$endif$ -->
   </p>
   $endif$
   $endfor$
@@ -313,7 +313,12 @@ $body$
   $for(other)$
   <div class="row">
     <div class="col-sm-3 aright">  
-      <p>$other.from$ - $other.to$</p>
+      <p>
+        $if(other.from)$
+        $other.from$
+        $endif$
+        $if(other.to)$ - $other.to$$endif$
+      </p>
     </div>
     <div class="col-sm-9 indented">
       <p>$other.title$$if(other.university)$, $other.university$$endif$ 

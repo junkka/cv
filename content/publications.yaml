@@ -1,4 +1,30 @@
 references:
+  - id: junkka2017c
+    article-journal: true
+    type: "article-journal"
+    title: "Voluntary associations and net fertility during the Swedish demographic transition"
+    container-title: European Journal of Population
+    author:
+      - family: Junkka
+        given: Johan
+    issued: 2018
+    doi: 10.1007/s10680-018-9465-5
+  - id: junkka2017b
+    title: "voluntary-associations - Reproducible analysis of voluntary associations and fertility decline in Sweden 1890 and 1900."
+    author:
+      - family: Junkka 
+        given: Johan
+    URL: "https://github.com/junkka/voluntary-associations"
+    issued: 2017
+    software: true
+  - id: junkka2017a
+    title: "movement - Popular movement data for Sweden 1881-1950."
+    author:
+      - family: Junkka 
+        given: Johan
+    URL: "https://github.com/junkka/movement"
+    issued: 2017
+    software: true
   - id: junkka2015a
     title: "histmaps - A R data package of Swedish historical administrative boundaries for parishes and counties 1634-1990"
     author:
@@ -22,7 +48,7 @@ references:
     issue: 2
     pages: 243-266
     doi: 10.1080/1081602X.2015.1043929
-    URL: "papers/junkka_2015.pdf"
+    URL: "http://umu.diva-portal.org/smash/get/diva2:823430/FULLTEXT01.pdf"
   - id: junkka2015c
     title: freechurchfertility - R scripts for replicating analysis in "Gender and fertility within the free churches in the Sundsvall region, Sweden, 1860-1921"
     author:
