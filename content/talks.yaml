@@ -1,10 +1,14 @@
 talks:
+  - year: 2017
+    month: December
+    title: "Topic and trends in fertility transitions research, 1950-2014: A LDA analysis of a 5,927 scientific documents"
+    event: "FADC Annual Conference 2017"
+    place: "HUMLabX, Umeå university, Sweden"
   - year: 2016
     month: November
     title: "Topics and trends in 50 years of fertility transition research. A LDA analysis of a large collection of abstracts"
     event: "Historisk demografi - dåtid, nutid och framtid"
     place: "Center for Demographic and Ageing Research, Umeå university, Sweden"
-    url: "http://notes.johanjunkka.com/topic-vis/#topic=0&lambda=0.65&term="
   - year: 2016
     month: September
     title: "Shared practices: Class, Community, and Fertility in Skellefteå Region, 1850-1950"
