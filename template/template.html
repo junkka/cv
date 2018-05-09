@@ -248,7 +248,7 @@ $body$
 
 <div class="col-md-12">
   <h2>Publications</h2>
-   <h3>Papers</h3> 
+   <h3>Books and articles</h3> 
   $for(references)$
   $if(references.article-journal)$
   <p class="indented">
@@ -259,6 +259,16 @@ $body$
     $if(references.doi)$ doi:<a href="http://dx.doi.org/$references.doi$">$references.doi$</a>$endif$
     $if(references.url)$ Retrieved from $references.url$$endif$ 
     <!--$if(references.URL)$<a href="$references.URL$">$references.URL$</a>$endif$ -->
+  </p>
+  $endif$
+  
+  $if(references.book)$
+  <p class="indented">
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+    ($references.issued$) 
+    <em>$references.title$</em>.
+    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
+    $if(references.URL)$ $references.URL$$endif$ 
   </p>
   $endif$
   $endfor$

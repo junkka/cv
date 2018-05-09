@@ -1,5 +1,16 @@
 references:
-  - id: junkka2017c
+  - id: junkka2018b
+    title: "Shared practices. Social networks and fertility decline during the Swedish demographic transition"
+    book: true
+    type: "book"
+    author:
+      - family: Junkka
+        given: Johan
+    issued: 2018
+    adress: "Umeå"
+    publisher: "Umeå University"
+    URL: "http://diva.umu.org"
+  - id: junkka2018a
     article-journal: true
     type: "article-journal"
     title: "Voluntary associations and net fertility during the Swedish demographic transition"
