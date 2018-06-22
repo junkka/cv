@@ -1,4 +1,27 @@
 references:
+  - id: junkka2018e
+    working-paper: true
+    title: "Topic and trends in fertility transition research, 1950-2014: A LDA analysis of 5 927 scientific documents"
+    author:
+      - family: Junkka
+        given: Johan
+    issued: 2018
+  - id: junkka2018d
+    working-paper: true
+    title: "Spatial diffusion of fertility decline in northern Sweden, 1850-1950"
+    URL: "http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-147280"
+    author:
+      - family: Junkka
+        given: Johan
+    issued: 2018
+  - id: junkka2018c
+    working-paper: true
+    title: "The influence of voluntary associations on fertility during the Swedish demographic transition, 1880-1949"
+    URL: "http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-147279"
+    author:
+      - family: Junkka
+        given: Johan
+    issued: 2018
   - id: junkka2018b
     title: "Shared practices. Social networks and fertility decline during the Swedish demographic transition, 1850-1950"
     book: true
@@ -66,6 +89,14 @@ references:
       - family: Junkka 
         given: Johan
     URL: "https://github.com/junkka/freechurchfertility"
+    issued: 2015
+    software: true
+  - id: junkka2015d
+    title: hisco - A R package for classification of HISCO codes to HISCLASS, SOCPO and HISCAM social class systems
+    author:
+      - family: Junkka 
+        given: Johan
+    URL: "https://github.com/cedarfoundation/hisco"
     issued: 2015
     software: true
   - id: junkka2014

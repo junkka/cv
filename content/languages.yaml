@@ -12,12 +12,8 @@ languages:
     - language: SQL
       level: experianced
     - language: PHP
-      level: experianced
+      level: basic
     - language: JavaScript
       level: basic
     - language: Python
-      level: basic
-    - language: STATA
-      level: basic
-    - language: Java
       level: basic

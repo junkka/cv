@@ -127,10 +127,11 @@ $body$
 
 %------------------------------------------------
 
+$if(current.title)$
 \section*{Current position}
 
 \emph{$current.title$}, $current.university$ % Your current or previous employment position
-
+$endif$
 %------------------------------------------------
 
 \section*{Research interests}
@@ -141,11 +142,11 @@ $info.interests$. % Your primary areas of research interest
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-% \section*{Appointments}
+\section*{Appointments}
 
-% $for(appointments)$
-% \years{$appointments.start$-$appointments.end$}$appointments.title$, $appointments.university$\\
-% $endfor$
+$for(appointments)$
+\years{$appointments.start$-$appointments.end$}$appointments.title$, $appointments.university$\\
+$endfor$
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -170,24 +171,37 @@ $endfor$
 
 $for(references)$
 $if(references.article-journal)$
-  \years{$references.issued$}
+\years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
     ($references.issued$) “$references.title$". 
     \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
-    $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$ \\
+    $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$\\
   % $if(references.URL)$ \\\url{$references.URL$}\\ $endif$
 $endif$
 $if(references.book)$
-  \years{$references.issued$}
+\years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
     ($references.issued$)
     \emph{$references.title$}.
     $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
-    $if(references.URL)$  $references.URL$$endif$  \\
+    $if(references.URL)$  $references.URL$$endif$\\
 $endif$
 
 $endfor$
 
+
+\subsection*{Working papers}
+
+$for(references)$
+$if(references.working-paper)$
+  \years{$references.issued$}
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+    ($references.issued$)
+    \emph{$references.title$}.
+    $if(references.URL)$  $references.URL$$endif$\\
+$endif$
+
+$endfor$
 \subsection*{Software}
 
 $for(references)$

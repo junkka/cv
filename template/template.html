@@ -206,17 +206,18 @@ $body$
 
 </div>
 
+$if(current.title)$
 <div class="col-md-12" style="margin-top:50px;">
   <h2>Current position</h2>
   <p><strong>$current.title$</strong>, $current.university$</p>
 </div>
+$endif$
 
 <div class="col-md-12">
   <h2>Research intersts</h2>
   <p>$info.interests$</p>
 </div>
 
-<!-- 
 <div class="col-md-12">
   <h2>Appointments</h2>
   $for(appointments)$
@@ -230,8 +231,7 @@ $body$
   </div>
   $endfor$
 </div>
- -->
- 
+
 <div class="col-md-12">
   <h2>Education</h2>
   $for(degrees)$
@@ -272,6 +272,20 @@ $body$
   </p>
   $endif$
   $endfor$
+
+ <h3>Working papers</h3> 
+  $for(references)$
+  $if(references.working-paper)$
+  <p class="indented">
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+    ($references.issued$) 
+    <em>$references.title$</em>.
+    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
+    $if(references.URL)$ $references.URL$$endif$ 
+  </p>
+  $endif$
+  $endfor$
+
 
   <h3>Software</h3>
   $for(references)$

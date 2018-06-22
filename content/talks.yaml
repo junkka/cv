@@ -14,7 +14,7 @@ talks:
     title: "Shared practices: Class, Community, and Fertility in Skellefteå Region, 1850-1950"
     event: "European Society of Historical Demography Conference"
     place: "Leuven, Belgium"
-    url: http://eshd2016.eshd.eu
+    #url: http://eshd2016.eshd.eu
   - year: 2016
     month: May
     title: "Shared practices: Class, Community, and Fertility in Skellefteå Region, 1850-1950"
@@ -25,13 +25,13 @@ talks:
     title: "Shared Practices"
     event: Higher Seminar in History
     place: "Department of Historical, Philosophical and Religious Studies, Umeå university, Sweden"
-    url: http://www.idesam.umu.se/om/kalendarium/visa-evenemang/?eventId=13003
+    url: http://www.idesam.umu.se/om/kalendarium/visa-evenemang/?eventId=12379
   - year: 2016
     month: May
     title: "Shared Practices: The Influence of Social Networks on Fertility during the Demographic Transition"
     event: Family Research at Umeå University
     place: "Department of Historical, Philosophical and Religious Studies, Umeå university, Sweden"
-    url: http://www.idesam.umu.se/om/kalendarium/visa-evenemang/?eventId=12379
+    url: http://www.idesam.umu.se/om/kalendarium/visa-evenemang/?eventId=13003
   - year: 2016
     month: April
     title: "Shared practices: Class, Community, and Fertility in Skellefteå Region, 1850-1950"
@@ -43,7 +43,7 @@ talks:
     title: Voluntary associations and fertility during the Swedish demographic transition
     event: European Social Science History Conference
     place: "Valencia, Spain"
-    url: https://esshc.socialhistory.org/esshc-user/programme?room=233
+    # url: https://esshc.socialhistory.org/esshc-user/programme?room=233
   - year: 2015
     month: October
     title: "Popular movements and net fertility during the Swedish fertility transition, 1890-1900"
@@ -71,7 +71,7 @@ talks:
     title: "Freedom to Control? Gender and Fertility within the Free-Churches in Sundsvall, 1860-1921"
     event: "Conference of the European Society of Historical Demography"
     place: "Alghero, Italy"
-    url: http://www.eshd.eu/node/41
+    #url: http://www.eshd.eu/node/41
   - year: 2014
     month: May
     title: Freedom to Control? Gender and Fertility within the Free-Churches in Northern Sweden, 1860-1921
@@ -82,7 +82,7 @@ talks:
     title: Gender and Fertility Within the Free-Churches in Northern Sweden 1860-1920
     event: "38th Annual Meeting of the Social Science History Association"
     place: "Chicago, USA"
-    url: http://ssha.org/past-conferences/206-2013-conf-prog
+    #url: http://ssha.org/past-conferences/206-2013-conf-prog
   - year: 2012
     month: November
     title: "Secularization, gender and fertility change in northern Sweden 1870-1950, a research proposal"
