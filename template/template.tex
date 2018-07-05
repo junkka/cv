@@ -24,12 +24,12 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt, a4paper]{article} % Document font size and paper size
+\documentclass[11pt]{article} % Document font size and paper size
 
 \usepackage{fontspec} % Allows the use of OpenType fonts
 
 \usepackage{geometry} % Allows the configuration of document margins
-\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings
+\geometry{textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings
 \setlength\parindent{0in} % Remove paragraph indentation
 
 \usepackage[usenames,dvipsnames]{xcolor} % Custom colors
@@ -171,20 +171,19 @@ $endfor$
 
 $for(references)$
 $if(references.article-journal)$
-\years{$references.issued$}
+  \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
     ($references.issued$) “$references.title$". 
     \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
-    $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$\\
-  % $if(references.URL)$ \\\url{$references.URL$}\\ $endif$
+    $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$
 $endif$
 $if(references.book)$
-\years{$references.issued$}
+  \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
     ($references.issued$)
     \emph{$references.title$}.
     $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
-    $if(references.URL)$  $references.URL$$endif$\\
+    $if(references.URL)$  $references.URL$$endif$
 $endif$
 
 $endfor$
@@ -198,7 +197,7 @@ $if(references.working-paper)$
     $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
     ($references.issued$)
     \emph{$references.title$}.
-    $if(references.URL)$  $references.URL$$endif$\\
+    $if(references.URL)$  $references.URL$$endif$
 $endif$
 
 $endfor$
@@ -210,6 +209,8 @@ $if(references.software)$
   $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$. ($references.issued$) “$references.title$“ $references.URL$\\
 $endif$
 $endfor$
+
+% \vspace{20pt}
 
 \section*{Conferences \& Invited presentations}
 
