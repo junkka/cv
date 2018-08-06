@@ -8,9 +8,9 @@ languages:
       level: basic
   programming:
     - language: R
-      level: experianced
+      level: experienced
     - language: SQL
-      level: experianced
+      level: experienced
     - language: PHP
       level: basic
     - language: JavaScript
