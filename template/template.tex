@@ -176,6 +176,7 @@ $if(references.article-journal)$
     ($references.issued$) “$references.title$". 
     \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
     $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$
+    $if(references.URL)$ $references.URL$$endif$
 $endif$
 $if(references.book)$
   \years{$references.issued$}

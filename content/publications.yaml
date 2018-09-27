@@ -15,15 +15,15 @@ references:
         given: Johan
     issued: 2018
   - id: junkka2018c
-    title: "Membership in and presence of voluntary organisations during the fertility transition, 1880-1949"
-    URL: "https://www.ehps-net.eu/journal"
+    title: "Membership in and Presence of Voluntary Organisations during the Swedish Fertility Transition, 1880-1949"
+    URL: "http://hdl.handle.net/10622/23526343-2018-00012?locatt=view%3Amaster"
     article-journal: true
     type: "article-journal"
     container-title: Historical life course studies
     author:
       - family: Junkka
         given: Johan
-    issued: In press
+    issued: 2018
   - id: junkka2018b
     title: "Shared practices. Social networks and fertility decline during the Swedish demographic transition, 1850-1950"
     book: true
