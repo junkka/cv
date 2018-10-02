@@ -19,7 +19,8 @@ references:
     URL: "http://hdl.handle.net/10622/23526343-2018-00012?locatt=view%3Amaster"
     article-journal: true
     type: "article-journal"
-    container-title: Historical life course studies
+    container-title: Historical Life Course Studies
+    volume: 5
     author:
       - family: Junkka
         given: Johan
