@@ -41,6 +41,9 @@ references:
     type: "article-journal"
     title: "Voluntary associations and net fertility during the Swedish demographic transition"
     container-title: European Journal of Population
+    volume: 34
+    issue: 5
+    pages: 819-848
     author:
       - family: Junkka
         given: Johan
