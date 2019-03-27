@@ -1,4 +1,18 @@
 references:
+  - id: junkka2019a
+    working-paper: true
+    title: "Ett annorlunda liv? Följder av funktionsnedsättningar i 1800-talets Sverige"
+    container-title: "Försäkringskassans skriftserie: Socialförsäkringsrapport"
+    author:
+      - family: Vikström
+        given: Lotta
+      - family: Erling Häggström 
+        given: Lundevaller
+      - family: Junkka
+        given: Johan
+      - family: Haage
+        given: Helena
+    issued: 2019
   - id: junkka2018e
     working-paper: true
     title: "Topic and trends in fertility transition research, 1950-2014: A LDA analysis of 5 927 scientific documents"
