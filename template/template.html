@@ -252,7 +252,7 @@ $endif$
   $for(references)$
   $if(references.article-journal)$
   <p class="indented">
-    $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
     ($references.issued$) 
     "$references.title$". 
     <em>$references.container-title$</em>$if(references.volume)$, $references.volume$ $endif$$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
@@ -264,7 +264,7 @@ $endif$
   
   $if(references.book)$
   <p class="indented">
-    $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
     ($references.issued$) 
     <em>$references.title$</em>.
     $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
@@ -277,7 +277,7 @@ $endif$
   $for(references)$
   $if(references.working-paper)$
   <p class="indented">
-    $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
     ($references.issued$) 
     <em>$references.title$</em>.
     $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
@@ -291,7 +291,7 @@ $endif$
   $for(references)$
   $if(references.software)$
   <p class="indented">
-    $for(references.author)$$references.author.family$, $references.author.given$$sep$ and $endfor$.
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
     ($references.issued$) "$references.title$". $references.URL$
   </p>
   $endif$

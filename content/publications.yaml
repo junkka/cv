@@ -1,24 +1,28 @@
 references:
   - id: junkka2019a
-    working-paper: true
+    article-journal: true
+    type: "article-journal"
     title: "Ett annorlunda liv? Följder av funktionsnedsättningar i 1800-talets Sverige"
-    container-title: "Försäkringskassans skriftserie: Socialförsäkringsrapport"
+    container-title: "Funktionsnedsättning i arbetsliv och välfärd, Försäkringskassan, Analys och prognos"
     author:
       - family: Vikström
-        given: Lotta
-      - family: Erling Häggström 
-        given: Lundevaller
+        given: L.
+      - family: Häggström Lundevaller
+        given: E.
       - family: Junkka
-        given: Johan
+        given: J.
       - family: Haage
-        given: Helena
+        given: H.
     issued: 2019
+    number: 2019:01
+    pages: 15-30
+    URL: "https://www.forsakringskassan.se/wps/wcm/connect/fac0708f-cade-48e1-9a03-df7e59d0407a/socialforsakringsrapport-2019-1.pdf?MOD=AJPERES&CVID="
   - id: junkka2018e
     working-paper: true
     title: "Topic and trends in fertility transition research, 1950-2014: A LDA analysis of 5 927 scientific documents"
     author:
       - family: Junkka
-        given: Johan
+        given: J.
     issued: 2018
   - id: junkka2018d
     working-paper: true
@@ -26,7 +30,7 @@ references:
     URL: "http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-147280"
     author:
       - family: Junkka
-        given: Johan
+        given: J.
     issued: 2018
   - id: junkka2018c
     title: "Membership in and Presence of Voluntary Organisations during the Swedish Fertility Transition, 1880-1949"
@@ -37,7 +41,7 @@ references:
     volume: 5
     author:
       - family: Junkka
-        given: Johan
+        given: J.
     issued: 2018
   - id: junkka2018b
     title: "Shared practices. Social networks and fertility decline during the Swedish demographic transition, 1850-1950"
@@ -45,7 +49,7 @@ references:
     type: "book"
     author:
       - family: Junkka
-        given: Johan
+        given: J.
     issued: 2018
     adress: "Umeå"
     publisher: "Umeå University"
@@ -60,14 +64,14 @@ references:
     pages: 819-848
     author:
       - family: Junkka
-        given: Johan
+        given: J.
     issued: 2018
     doi: 10.1007/s10680-018-9465-5
   - id: junkka2017b
     title: "voluntary-associations - Reproducible analysis of voluntary associations and fertility decline in Sweden 1890 and 1900."
     author:
       - family: Junkka 
-        given: Johan
+        given: J.
     URL: "https://github.com/junkka/voluntary-associations"
     issued: 2017
     software: true
@@ -75,7 +79,7 @@ references:
     title: "movement - Popular movement data for Sweden 1881-1950."
     author:
       - family: Junkka 
-        given: Johan
+        given: J.
     URL: "https://github.com/junkka/movement"
     issued: 2017
     software: true
@@ -83,7 +87,7 @@ references:
     title: "histmaps - A R data package of Swedish historical administrative boundaries for parishes and counties 1634-1990"
     author:
       - family: Junkka 
-        given: Johan
+        given: J.
     URL: "https://github.com/junkka/histmaps"
     issued: 2015
     software: true
@@ -94,9 +98,9 @@ references:
     container-title: The History of the Family
     author:
       - family: Junkka
-        given: Johan
+        given: J.
       - family: Edvinsson
-        given: Sören
+        given: S.
     issued: 2016
     volume: 21
     issue: 2
@@ -107,7 +111,7 @@ references:
     title: freechurchfertility - R scripts for replicating analysis in "Gender and fertility within the free churches in the Sundsvall region, Sweden, 1860-1921"
     author:
       - family: Junkka 
-        given: Johan
+        given: J.
     URL: "https://github.com/junkka/freechurchfertility"
     issued: 2015
     software: true
@@ -115,7 +119,7 @@ references:
     title: hisco - A R package for classification of HISCO codes to HISCLASS, SOCPO and HISCAM social class systems
     author:
       - family: Junkka 
-        given: Johan
+        given: J.
     URL: "https://github.com/cedarfoundation/hisco"
     issued: 2015
     software: true
@@ -123,7 +127,7 @@ references:
     title: ehahleper - A R helper package for event history analysis
     author:
       - family: Junkka 
-        given: Johan
+        given: J.
     URL: "https://github.com/junkka/ehahelper"
     issued: 2014
     software: true
