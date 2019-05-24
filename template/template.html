@@ -399,6 +399,29 @@ $endif$
 </div>
 
 
+<div class="col-md-12">
+  <h2>Grants</h2>
+
+  $for(grants)$
+  <div class="row">
+    <div class="col-sm-3 aright">  
+      <p>
+        $if(grants.year)$$grants.year$$endif$
+      </p>
+    </div>
+    <div class="col-sm-9 indented">
+      <p>
+        $grants.institution$,
+        $grants.type$.
+        $grants.amount$
+      </p>
+    </div>
+  </div>
+  $endfor$
+</div>
+
+
+
 <div class="col-md-12">    
   <h2>Language skills</h2>
   <div class="row">
