@@ -1,4 +1,9 @@
 talks:
+  - year: 2020
+    month: Februari
+    title: "Healthy migrant perspectives on disability and mobility in a 19th-century population"
+    event: Seminar
+    place: "Department of Geography, Umeå University, Sweden"
   - year: 2019
     month: November
     title: "Voluntary association growth and mortality in Sweden 1895-1930"
@@ -60,19 +65,19 @@ talks:
     title: "Shared Practices"
     event: Higher Seminar in History
     place: "Department of Historical, Philosophical and Religious Studies, Umeå university, Sweden"
-    url: http://www.idesam.umu.se/om/kalendarium/visa-evenemang/?eventId=12379
+    # url: http://www.idesam.umu.se/om/kalendarium/visa-evenemang/?eventId=12379
   - year: 2016
     month: May
     title: "Shared Practices: The Influence of Social Networks on Fertility during the Demographic Transition"
     event: Family Research at Umeå University
     place: "Department of Historical, Philosophical and Religious Studies, Umeå university, Sweden"
-    url: http://www.idesam.umu.se/om/kalendarium/visa-evenemang/?eventId=13003
+    # url: http://www.idesam.umu.se/om/kalendarium/visa-evenemang/?eventId=13003
   - year: 2016
     month: April
     title: "Shared practices: Class, Community, and Fertility in Skellefteå Region, 1850-1950"
     event: CEDAR seminars
     place: "Center for Demographic and Ageing Research, Umeå university, Sweden"
-    url: http://www.umu.se/om-universitetet/aktuellt/kalendarium/visningssida/?eventVersionId=17421
+    # url: http://www.umu.se/om-universitetet/aktuellt/kalendarium/visningssida/?eventVersionId=17421
   - year: 2016
     month: April
     title: Voluntary associations and fertility during the Swedish demographic transition
@@ -89,13 +94,13 @@ talks:
     title: "The popular movements and reproductive practices during the Swedish fertility decline 1890-1930"
     event: Higher Seminar in History
     place: "Department of Historical, Philospical and Religious Studies, Umeå University, Sweden"
-    url: http://www.idesam.umu.se/english/about/calendar-of-events/show-event/?eventId=10303
+    # url: http://www.idesam.umu.se/english/about/calendar-of-events/show-event/?eventId=10303
   - year: 2015
     month: April
     title: Starting with Git
     event: CEDAR Fertility Group Meeting
     place: Centre for Demographic and Ageing Research, Umeå University, Sweden
-    url: http://johanjunkka.com/git-pres
+    # url: http://johanjunkka.com/git-pres
   - year: 2015
     month: Februari
     title: "Sekularisering, genus och fertilitetsnedgång i Sverige 1890-1930"
