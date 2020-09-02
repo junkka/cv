@@ -1,9 +1,14 @@
 current:
-  title: Postdoctor
+  start: 2020
+  title: Senior Research Assistant
   university: Centre for Demographic and Ageing Reserch, Umeå University, Sweden
 
 appointments:
+  - start: 2018
+    end: 2020
+    title: Postdoctoral fellow
+    university:  Centre for Demographic and Ageing Reserch, Umeå University, Sweden
   - start: 2012
     end: 2018
     title: PhD student in History
-    university: Umeå University, Sweden
+    university: Department of Historical, Philosophical and Religious studies, Umeå University, Sweden
