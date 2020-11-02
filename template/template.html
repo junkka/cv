@@ -253,9 +253,9 @@ $endif$
   $if(references.article-journal)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$) 
-    "$references.title$". 
-    <em>$references.container-title$</em>$if(references.volume)$, $references.volume$ $endif$$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
+    ($references.issued$). 
+    $references.title$. 
+    <em>$references.container-title$</em>$if(references.volume)$, <em>$references.volume$</em>$endif$$if(references.issue)$($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
     $if(references.doi)$ doi:<a href="http://dx.doi.org/$references.doi$">$references.doi$</a>$endif$
     $if(references.URL)$ $references.URL$$endif$ 
     <!--$if(references.URL)$<a href="$references.URL$">$references.URL$</a>$endif$ -->
@@ -265,7 +265,7 @@ $endif$
   $if(references.book)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$) 
+    ($references.issued$). 
     <em>$references.title$</em>.
     $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
     $if(references.URL)$ $references.URL$$endif$ 
@@ -278,7 +278,7 @@ $endif$
   $if(references.working-paper)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$) 
+    ($references.issued$). 
     <em>$references.title$</em>.
     $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
     $if(references.URL)$ $references.URL$$endif$ 
@@ -292,7 +292,7 @@ $endif$
   $if(references.software)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$) "$references.title$". $references.URL$
+    ($references.issued$). <em>$references.title$</em>. $references.URL$
   </p>
   $endif$
   $endfor$

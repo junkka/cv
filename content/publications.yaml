@@ -1,4 +1,20 @@
 references:
+  - id: junkka2020b
+    title: "Climate vulnerability of Swedish newborns: gender differences and time trends of temperature-related neonatal mortality, 1880 – 1950"
+    author: 
+    - family: Junkka
+      given: J.
+    - family: Karlsson
+      given: L.
+    - family: Lundevaller
+      given: E.
+    - family: Schumann
+      given: B.
+    article-journal: true
+    type: "article-journal"
+    container-title: Environmental research
+    issued: 2020
+    doi: 10.1016/j.envres.2020.110400
   - id: junkka2020a
     title: "The emergence of social gaps in mental health: A longitudinal population study in Sweden, 1900-1959"
     author:

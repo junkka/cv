@@ -1,9 +1,13 @@
 current:
   start: 2020
-  title: Senior Research Assistant
+  title: Assistant Professor
   university: Centre for Demographic and Ageing Reserch, Umeå University, Sweden
 
 appointments:
+  - start: 2020
+    end: 2020
+    title: Senior Research Assistant
+    university:  Centre for Demographic and Ageing Reserch, Umeå University, Sweden
   - start: 2018
     end: 2020
     title: Postdoctoral fellow

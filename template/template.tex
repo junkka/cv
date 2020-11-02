@@ -111,10 +111,10 @@ $info.adress4$\\ % Your address
 [.2cm]
 Phone: \texttt{$info.phone$}\\ % Your phone number
 Email: \href{mailto:#}{$info.email$}\\ % Your email address
-\textsc{url}: \href{http://$info.url$}{$info.url$}\\ % Your academic/personal website
+\textsc{Website}: \href{http://$info.url$}{$info.url$}\\ % Your academic/personal website
 
 
-\vspace{40pt}
+\vspace{32pt}
 
 
 Born: $info.born$, $info.born-in$\\ % Your date of birth
@@ -123,7 +123,7 @@ Nationality: $info.nationality$ % Your nationality
 
 $body$
 
-\vspace{20pt}
+\vspace{36pt}
 
 %------------------------------------------------
 
@@ -163,7 +163,7 @@ $endfor$
 %	PUBLICATIONS AND TALKS SECTION
 %----------------------------------------------------------------------------------------
 
-\vspace{10pt}
+\vspace{20pt}
 
 \section*{Publications}
 
@@ -173,7 +173,7 @@ $for(references)$
 $if(references.article-journal)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$) “$references.title$". 
+    ($references.issued$). $references.title$. 
     \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
     $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$
     $if(references.URL)$ $references.URL$$endif$
@@ -181,7 +181,7 @@ $endif$
 $if(references.book)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$)
+    ($references.issued$).
     \emph{$references.title$}.
     $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
     $if(references.URL)$  $references.URL$$endif$
@@ -196,7 +196,7 @@ $for(references)$
 $if(references.working-paper)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$)
+    ($references.issued$).
     \emph{$references.title$}.
     $if(references.URL)$  $references.URL$$endif$
 $endif$
@@ -207,11 +207,11 @@ $endfor$
 $for(references)$
 $if(references.software)$
 \years{$references.issued$}
-  $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$ ($references.issued$) “$references.title$“ $references.URL$\\
+  $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$ ($references.issued$). \emph{$references.title$}. $references.URL$\\
 $endif$
 $endfor$
 
-\vspace{20pt}
+%\vspace{20pt}
 
 \section*{Conferences \& Invited presentations}
 
