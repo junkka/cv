@@ -1,4 +1,12 @@
 references:
+  - id: junkka2019d
+    title: "db2connect - Connect to IBM DB2 servers"
+    author:
+      - family: Junkka 
+        given: J.
+    URL: "https://github.com/junkka/db2connect"
+    issued: 2019
+    software: true
   - id: junkka2020b
     title: "Climate vulnerability of Swedish newborns: gender differences and time trends of temperature-related neonatal mortality, 1880 – 1950"
     author: 
@@ -12,8 +20,10 @@ references:
       given: B.
     article-journal: true
     type: "article-journal"
+    volume: 192
     container-title: Environmental research
     issued: 2020
+    pages: 110400
     doi: 10.1016/j.envres.2020.110400
   - id: junkka2020a
     title: "The emergence of social gaps in mental health: A longitudinal population study in Sweden, 1900-1959"
