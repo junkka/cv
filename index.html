@@ -10,7 +10,7 @@
 
     <meta name="author" content="Johan Junkka" />
   
-    <meta name="date" content="2020-12-08" />
+    <meta name="date" content="2021-01-12" />
   
   <title>Johan Junkka - Curriculum vitae</title>
 
@@ -249,43 +249,20 @@ window.buildTabsets = function(tocID) {
 };
 
 </script>
-  <style type="text/css">
-a.anchor-section {margin-left: 10px; visibility: hidden; color: inherit;}
-a.anchor-section::before {content: '#';}
-.hasAnchor:hover a.anchor-section {visibility: visible;}
-</style>
-  <script>// Anchor sections v1.0 written by Atsushi Yasumoto on Oct 3rd, 2020.
+  <script>// Hide empty <a> tag within highlighted CodeBlock for screen reader accessibility (see https://github.com/jgm/pandoc/issues/6352#issuecomment-626106786) -->
+// v0.0.1
+// Written by JooYoung Seo (jooyoung@psu.edu) and Atsushi Yasumoto on June 1st, 2020.
+
 document.addEventListener('DOMContentLoaded', function() {
-  // Do nothing if AnchorJS is used
-  if (typeof window.anchors === 'object' && anchors.hasOwnProperty('hasAnchorJSLink')) {
-    return;
-  }
-
-  const h = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-
-  // Do nothing if sections are already anchored
-  if (Array.from(h).some(x => x.classList.contains('hasAnchor'))) {
-    return null;
-  }
-
-  // Use section id when pandoc runs with --section-divs
-  const section_id = function(x) {
-    return ((x.classList.contains('section') || (x.tagName === 'SECTION'))
-            ? x.id : '');
-  };
-
-  // Add anchors
-  h.forEach(function(x) {
-    const id = x.id || section_id(x.parentElement);
-    if (id === '') {
-      return null;
+  const codeList = document.getElementsByClassName("sourceCode");
+  for (var i = 0; i < codeList.length; i++) {
+    var linkList = codeList[i].getElementsByTagName('a');
+    for (var j = 0; j < linkList.length; j++) {
+      if (linkList[j].innerHTML === "") {
+        linkList[j].setAttribute('aria-hidden', 'true');
+      }
     }
-    let anchor = document.createElement('a');
-    anchor.href = '#' + id;
-    anchor.classList = ['anchor-section'];
-    x.classList.add('hasAnchor');
-    x.appendChild(anchor);
-  });
+  }
 });
 </script>
   
@@ -634,7 +611,7 @@ text-align: right;
       
         <p class="indented">
     Junkka, J., Karlsson, L., Lundevaller, E., Schumann, B.
-    (2020). 
+    (2021). 
     Climate vulnerability of Swedish newborns: gender differences and time trends of temperature-related neonatal mortality, 1880 – 1950. 
     <em>Environmental research</em>, <em>192</em>.
      doi:<a href="http://dx.doi.org/10.1016/j.envres.2020.110400">10.1016/j.envres.2020.110400</a>
@@ -1349,7 +1326,7 @@ text-align: right;
   <div class="col-md-12 footer">
     <p style="text-align: center;"><a href="cv.pdf">PDF</a></p>
     <p style="text-align: center;"><a href="https://github.com/junkka/cv">Source on GitHub</a></p>
-    <p style="text-align: center;">Last updated: December 8, 2020</p>
+    <p style="text-align: center;">Last updated: January 12, 2021</p>
   </div>
 </div>
 
