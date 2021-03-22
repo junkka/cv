@@ -1,4 +1,21 @@
 references:
+  - id: junkka2021a
+    title: "Socioeconomic disparities in climate vulnerability: neonatal mortality in northern Sweden, 1880–1950"
+    author: 
+    - family: Karlsson
+      given: L.
+    - family: Junkka
+      given: J.
+    - family: Lundevaller
+      given: E.
+    - family: Schumann
+      given: B.
+    article-journal: true
+    type: "article-journal"
+    container-title: Population and environment 
+    issued: 2021
+    issue: Accepted for publication
+    volume: " "
   - id: junkka2019d
     title: "db2connect - Connect to IBM DB2 servers"
     author:
@@ -73,13 +90,6 @@ references:
     number: 2019:01
     pages: 15-30
     URL: "https://www.forsakringskassan.se/wps/wcm/connect/fac0708f-cade-48e1-9a03-df7e59d0407a/socialforsakringsrapport-2019-1.pdf?MOD=AJPERES&CVID="
-  - id: junkka2018e
-    working-paper: true
-    title: "Topic and trends in fertility transition research, 1950-2014: A LDA analysis of 5 927 scientific documents"
-    author:
-      - family: Junkka
-        given: J.
-    issued: 2018
   - id: junkka2018c
     title: "Membership in and Presence of Voluntary Organisations during the Swedish Fertility Transition, 1880-1949"
     URL: "http://hdl.handle.net/10622/23526343-2018-00012?locatt=view%3Amaster"

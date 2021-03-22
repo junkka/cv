@@ -190,6 +190,7 @@ $endif$
 $endfor$
 
 
+$if(references.working-paper)$
 \subsection*{Working papers}
 
 $for(references)$
@@ -200,8 +201,9 @@ $if(references.working-paper)$
     \emph{$references.title$}.
     $if(references.URL)$  $references.URL$$endif$
 $endif$
-
 $endfor$
+$endif$
+
 \subsection*{Software}
 
 $for(references)$
@@ -260,7 +262,7 @@ $for(affiliations)$
 \years{$affiliations.from$-$affiliations.to$}\textsc{$affiliations.title$} $affiliations.university$\\
 $endfor$
 
-\vspace{20pt}
+% \vspace{20pt}
 
 \section*{Grants}
 
