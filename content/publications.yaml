@@ -6,16 +6,16 @@ references:
       given: L.
     - family: Junkka
       given: J.
-    - family: Lundevaller
-      given: E.
     - family: Schumann
       given: B.
+    - family: Lundevaller
+      given: E.
     article-journal: true
     type: "article-journal"
     container-title: Population and environment 
     issued: 2021
-    issue: Accepted for publication
     volume: " "
+    doi: 10.1007/s11111-021-00383-9
   - id: junkka2019d
     title: "db2connect - Connect to IBM DB2 servers"
     author:
