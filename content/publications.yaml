@@ -92,7 +92,7 @@ references:
     URL: "https://www.forsakringskassan.se/wps/wcm/connect/fac0708f-cade-48e1-9a03-df7e59d0407a/socialforsakringsrapport-2019-1.pdf?MOD=AJPERES&CVID="
   - id: junkka2018c
     title: "Membership in and Presence of Voluntary Organisations during the Swedish Fertility Transition, 1880-1949"
-    URL: "http://hdl.handle.net/10622/23526343-2018-00012?locatt=view%3Amaster"
+    doi: 10.51964/hlcs9335
     article-journal: true
     type: "article-journal"
     container-title: Historical Life Course Studies
