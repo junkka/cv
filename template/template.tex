@@ -189,8 +189,8 @@ $endif$
 
 $endfor$
 
+\vspace{20pt}
 
-$if(references.working-paper)$
 \subsection*{Working papers}
 
 $for(references)$
@@ -198,13 +198,11 @@ $if(references.working-paper)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
     ($references.issued$).
-    \emph{$references.title$}.
-    $if(references.URL)$  $references.URL$$endif$
+    $references.title$.
+    \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
+    $if(references.URL)$  $references.URL$\\$endif$
 $endif$
 $endfor$
-$endif$
-
-\vspace{20pt}
 
 \subsection*{Software}
 

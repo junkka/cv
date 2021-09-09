@@ -273,20 +273,18 @@ $endif$
   $endif$
   $endfor$
 
-  $if(references.working-paper)$
  <h3>Working papers</h3> 
   $for(references)$
   $if(references.working-paper)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
     ($references.issued$). 
-    <em>$references.title$</em>.
-    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
+    $references.title$.
+     <em>$references.container-title$</em>$if(references.volume)$, <em>$references.volume$</em>$endif$$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
     $if(references.URL)$ $references.URL$$endif$ 
   </p>
   $endif$
   $endfor$
-  $endif$
 
 
   <h3>Software</h3>
