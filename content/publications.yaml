@@ -1,4 +1,20 @@
-references:
+references: 
+  - id: junkka2021f
+    title: "Ambient temperature and stillbirth risks in northern Sweden, 1880-1950"
+    author: 
+    - family: Karlsson
+      given: L.
+    - family: Junkka
+      given: J.
+    - family: Lundevaller
+      given: E.
+    - family: Schumann
+      given: B.
+    article-journal: true
+    type: "article-journal"
+    container-title: Environmental epidemiology
+    volume: "(in press)"
+    issued: 2021
   - id: junkka2021e
     title: "Healthy migrant perspectives on disability and mobility in a nineteenth-century population"
     author: 
