@@ -178,6 +178,7 @@ $if(references.article-journal)$
     $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$
     $if(references.URL)$ $references.URL$$endif$
 $endif$
+
 $if(references.book)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
@@ -186,6 +187,19 @@ $if(references.book)$
     $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
     $if(references.URL)$  $references.URL$$endif$
 $endif$
+
+
+$if(references.chapter)$
+  \years{$references.issued$}
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
+    ($references.issued$).
+    $references.title$.
+    In $for(references.editor)$$references.editor.family$, $references.editor.given$$sep$, $endfor$ 
+    (Eds.), \emph{$references.container-title$.}.
+    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
+    $if(references.URL)$  $references.URL$$endif$
+$endif$
+
 
 $endfor$
 

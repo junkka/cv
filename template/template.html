@@ -271,6 +271,19 @@ $endif$
     $if(references.URL)$ $references.URL$$endif$ 
   </p>
   $endif$
+  
+  $if(references.chapter)$
+  <p class="indented">
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
+    ($references.issued$). 
+    $references.title$.
+    In $for(references.editor)$$references.editor.family$, $references.editor.given$$sep$, $endfor$ 
+    (Eds.), <em>$references.container-title$.</em>.
+    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$ $references.adress$$endif$
+    $if(references.URL)$ $references.URL$$endif$ 
+  </p>
+  $endif$
+  
   $endfor$
 
  <h3>Working papers</h3> 

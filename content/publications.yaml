@@ -1,4 +1,25 @@
 references: 
+  - id: junkka2021h
+    title: "Two Centuries of Inequalities: Disability and Partnership in Sweden"
+    author: 
+    - family: Vikström
+      given: L.
+    - family: Karhina
+      given: K.
+    - family: Junkka
+      given: J.
+    editor:
+    - family: Nico
+      given: M
+    - family: Pollock
+      given: G
+    chapter: true
+    article-journal: false
+    type: "article-journal"
+    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186865"
+    container-title: The Routledge Handbook of Contemporary Inequalities and the Life Course 
+    issued: 2022
+    adress: (forthcomming)
   - id: junkka2021g
     title: "Supply or demand?: Institutionalization of the mentally ill in the emerging Swedish welfare state, 1900–1959"
     author: 
@@ -10,9 +31,9 @@ references:
       given: G.
     - family: Vikström
       given: L.
+    container-title: History of Psychiatry
     article-journal: true
     type: "article-journal"
-    container-title: History of Psychiatry
     volume: "(in press)"
     issued: 2021
     URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186374"
@@ -81,22 +102,6 @@ references:
     URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186370"
     container-title: CEDAR working papers 
     volume: 12
-    issued: 2021
-  - id: junkka2021b
-    title: "Two Centuries of Inequalities: Disability and Partnership in Sweden"
-    author: 
-    - family: Vikström
-      given: L.
-    - family: Karhina
-      given: K.
-    - family: Junkka
-      given: J.
-    article-journal: false
-    working-paper: true
-    type: "article-journal"
-    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186865"
-    container-title: CEDAR working papers 
-    volume: 11
     issued: 2021
   - id: junkka2021a
     title: "Socioeconomic disparities in climate vulnerability: neonatal mortality in northern Sweden, 1880–1950"
