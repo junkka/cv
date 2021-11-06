@@ -16,7 +16,7 @@ references:
     chapter: true
     article-journal: false
     type: "article-journal"
-    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186865"
+    URL: "https://www.routledge.com/The-Routledge-Handbook-of-Contemporary-Inequalities-and-the-Life-Course/Nico-Pollock/p/book/9781138601505"
     container-title: The Routledge Handbook of Contemporary Inequalities and the Life Course 
     issued: 2021
     adress: (forthcoming)
@@ -51,8 +51,10 @@ references:
     article-journal: true
     type: "article-journal"
     container-title: Environmental epidemiology
-    volume: "(in press)"
+    volume: 5
+    issue: 6
     issued: 2021
+    doi: 10.1097/EE9.0000000000000176 
   - id: junkka2021e
     title: "Healthy migrant perspectives on disability and mobility in a nineteenth-century population"
     author: 
