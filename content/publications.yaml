@@ -89,22 +89,6 @@ references:
     container-title: CEDAR working papers 
     volume: 18
     issued: 2021
-  - id: junkka2021c
-    title: "Two Centuries of Disability Disadvantages in Swedish Partnerships"
-    author: 
-    - family: Vikström
-      given: L.
-    - family: Junkka
-      given: J.
-    - family: Karhina
-      given: K.
-    article-journal: false
-    working-paper: true
-    type: "article-journal"
-    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186370"
-    container-title: CEDAR working papers 
-    volume: 12
-    issued: 2021
   - id: junkka2021a
     title: "Socioeconomic disparities in climate vulnerability: neonatal mortality in northern Sweden, 1880–1950"
     author: 
