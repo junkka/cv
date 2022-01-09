@@ -1,4 +1,21 @@
 references: 
+  - id: junkka2022a
+    title: "Supply or demand?: Institutionalization of the mentally ill in the emerging Swedish welfare state, 1900–1959"
+    author: 
+    - family: Erkisson
+      given: L.
+    - family: Junkka
+      given: J.
+    - family: Sandström
+      given: G.
+    - family: Vikström
+      given: L.
+    container-title: History of Psychiatry
+    article-journal: true
+    type: "article-journal"
+    volume: "(forthcomming)"
+    issued: 2022
+    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186374"
   - id: junkka2021h
     title: "Two Centuries of Inequalities: Disability and Partnership in Sweden"
     author: 
@@ -16,27 +33,11 @@ references:
     chapter: true
     article-journal: false
     type: "article-journal"
-    URL: "https://www.routledge.com/The-Routledge-Handbook-of-Contemporary-Inequalities-and-the-Life-Course/Nico-Pollock/p/book/9781138601505"
+    doi: 10.4324/9780429470059
     container-title: The Routledge Handbook of Contemporary Inequalities and the Life Course 
     issued: 2021
-    adress: (forthcoming)
-  - id: junkka2021g
-    title: "Supply or demand?: Institutionalization of the mentally ill in the emerging Swedish welfare state, 1900–1959"
-    author: 
-    - family: Erkisson
-      given: L.
-    - family: Junkka
-      given: J.
-    - family: Sandström
-      given: G.
-    - family: Vikström
-      given: L.
-    container-title: History of Psychiatry
-    article-journal: true
-    type: "article-journal"
-    volume: "(in press)"
-    issued: 2021
-    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186374"
+    adress: London
+    publisher: "Routledge"
   - id: junkka2021f
     title: "Ambient temperature and stillbirth risks in northern Sweden, 1880-1950"
     author: 
