@@ -13,10 +13,11 @@ references:
     container-title: History of Psychiatry
     article-journal: true
     type: "article-journal"
-    volume: "(forthcomming)"
     issued: 2022
+    doi: 10.1177/0957154X211073054
     URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186374"
-  - id: junkka2021h
+    pages: 1-17
+  - id: junkka2022h
     title: "Two Centuries of Inequalities: Disability and Partnership in Sweden"
     author: 
     - family: Vikström
@@ -33,10 +34,10 @@ references:
     chapter: true
     article-journal: false
     type: "article-journal"
-    doi: 10.4324/9780429470059
+    doi: 10.4324/9780429470059-14
     container-title: The Routledge Handbook of Contemporary Inequalities and the Life Course 
-    issued: 2021
-    adress: London
+    issued: 2022
+    adress: "New York"
     publisher: "Routledge"
   - id: junkka2021f
     title: "Ambient temperature and stillbirth risks in northern Sweden, 1880-1950"
