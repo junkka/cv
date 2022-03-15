@@ -1,4 +1,18 @@
 references: 
+  - id: junkka2022b
+    title: "Infectious disease mortality among infants, seasonality and ambient temperature in Sweden, 1868-1892"
+    author: 
+    - family: Junkka
+      given: J.
+    - family: Hiltunen
+      given: M.
+    article-journal: false
+    working-paper: true
+    type: "article-journal"
+    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-193107"
+    container-title: CEDAR working papers 
+    volume: 23
+    issued: 2022
   - id: junkka2022a
     title: "Supply or demand?: Institutionalization of the mentally ill in the emerging Swedish welfare state, 1900–1959"
     author: 

@@ -1,4 +1,14 @@
 talks:
+  - year: 2022
+    month: March
+    title: "Infectious disease mortality among infants, seasonality and ambient temperature in Sweden, 1868-1892"
+    event: "Conference of the European Society of Historical Demography"
+    place: "Madrid, Spain"
+  - year: 2022
+    month: March
+    title: "A longitudinal study of how disability affects mortality in Swedish Populations from the 1800s, 1900´s and 2000´s"
+    event: "Conference of the European Society of Historical Demography"
+    place: "Madrid, Spain"
   - year: 2021
     month: December
     title: "Measuring mortality responses to temperature exposures using distributed lag non-linear models"
