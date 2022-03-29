@@ -1,4 +1,28 @@
 references: 
+  - id: junkka2022d
+    title: "leafletwrapper - Wrapper for the leaflet package, to simplify interactive visualisations"
+    author:
+      - family: Junkka 
+        given: J.
+    URL: "https://github.com/junkka/leafletwrapper"
+    issued: 2022
+    software: true
+  - id: junkka2022c
+    title: "histmaps - A R data package of Swedish historical administrative boundaries for parishes and counties 1634-1990"
+    author:
+      - family: Junkka 
+        given: J.
+    URL: "https://github.com/junkka/histmaps"
+    issued: 2022
+    software: true
+  - id: junkka2014
+    title: ehahleper - A R helper package for event history analysis
+    author:
+      - family: Junkka 
+        given: J.
+    URL: "https://github.com/junkka/ehahelper"
+    issued: 2021
+    software: true
   - id: junkka2022b
     title: "Infectious disease mortality among infants, seasonality and ambient temperature in Sweden, 1868-1892"
     author: 
@@ -231,14 +255,6 @@ references:
         given: J.
     issued: 2018
     doi: 10.1007/s10680-018-9465-5
-  - id: junkka2017b
-    title: "voluntary-associations - Reproducible analysis of voluntary associations and fertility decline in Sweden 1890 and 1900."
-    author:
-      - family: Junkka 
-        given: J.
-    URL: "https://github.com/junkka/voluntary-associations"
-    issued: 2017
-    software: true
   - id: junkka2017a
     title: "movement - Popular movement data for Sweden 1881-1950."
     author:
@@ -246,14 +262,6 @@ references:
         given: J.
     URL: "https://github.com/junkka/movement"
     issued: 2017
-    software: true
-  - id: junkka2015a
-    title: "histmaps - A R data package of Swedish historical administrative boundaries for parishes and counties 1634-1990"
-    author:
-      - family: Junkka 
-        given: J.
-    URL: "https://github.com/junkka/histmaps"
-    issued: 2015
     software: true
   - id: junkka2015b
     article-journal: true
@@ -271,14 +279,6 @@ references:
     pages: 243-266
     doi: 10.1080/1081602X.2015.1043929
     URL: "http://umu.diva-portal.org/smash/get/diva2:823430/FULLTEXT01.pdf"
-  - id: junkka2015c
-    title: freechurchfertility - R scripts for replicating analysis in "Gender and fertility within the free churches in the Sundsvall region, Sweden, 1860-1921"
-    author:
-      - family: Junkka 
-        given: J.
-    URL: "https://github.com/junkka/freechurchfertility"
-    issued: 2015
-    software: true
   - id: junkka2015d
     title: hisco - A R package for classification of HISCO codes to HISCLASS, SOCPO and HISCAM social class systems
     author:
@@ -286,12 +286,4 @@ references:
         given: J.
     URL: "https://github.com/cedarfoundation/hisco"
     issued: 2015
-    software: true
-  - id: junkka2014
-    title: ehahleper - A R helper package for event history analysis
-    author:
-      - family: Junkka 
-        given: J.
-    URL: "https://github.com/junkka/ehahelper"
-    issued: 2014
     software: true
