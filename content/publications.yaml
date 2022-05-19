@@ -8,7 +8,7 @@ references:
     issued: 2022
     software: true
   - id: junkka2022c
-    title: "histmaps - A R data package of Swedish historical administrative boundaries for parishes and counties 1634-1990"
+    title: "histmaps - A R data package of Swedish historical administrative boundaries for parishes and counties 1634-1990. Version 0.3.1.9999"
     author:
       - family: Junkka 
         given: J.
@@ -52,8 +52,9 @@ references:
     article-journal: true
     type: "article-journal"
     issued: 2022
-    doi: 10.1177/0957154X211073054
-    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-186374"
+    doi: 10.1177/0957154X221084976
+    volume: 33
+    issue: 2
     pages: 1-17
   - id: junkka2022h
     title: "Two Centuries of Inequalities: Disability and Partnership in Sweden"
