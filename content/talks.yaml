@@ -1,12 +1,22 @@
 talks:
   - year: 2022
+    month: October
+    title: "Temperature and seasonality related infectious disease mortality among infants. A retrospective time-series study of Sweden, 1868-1892"
+    event: "CED seminar"
+    place: "Lund, Sweden"
+  - year: 2022
+    month: June
+    title: "Cause Specific Infant Mortality and Ambient Temperature in Northern Sweden 1860-1892"
+    event: "European Population Conference"
+    place: "Groningen, The Netherlands"
+  - year: 2022
     month: March
-    title: "Infectious disease mortality among infants, seasonality and ambient temperature in Sweden, 1868-1892"
+    title: "A longitudinal study of how disability affects mortality in Swedish Populations from the 1800s, 1900´s and 2000´s"
     event: "Conference of the European Society of Historical Demography"
     place: "Madrid, Spain"
   - year: 2022
     month: March
-    title: "A longitudinal study of how disability affects mortality in Swedish Populations from the 1800s, 1900´s and 2000´s"
+    title: "Cause specific infant mortality and ambient temperature in Northern Sweden 1868-1892"
     event: "Conference of the European Society of Historical Demography"
     place: "Madrid, Spain"
   - year: 2021
