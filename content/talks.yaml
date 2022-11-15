@@ -1,5 +1,15 @@
 talks:
   - year: 2022
+    month: November
+    title: "A longitudinal study of how disability has affected survival in Swedish populations across 150 years"
+    event: "European Public Health Conference"
+    place: "Berlin, Germany"
+  - year: 2022
+    month: November
+    title: "Temperature related infectious disease mortality among infants and seasonality in Sweden, 1868-1892"
+    event: "European Public Health Conference"
+    place: "Berlin, Germany"
+  - year: 2022
     month: October
     title: "Temperature and seasonality related infectious disease mortality among infants. A retrospective time-series study of Sweden, 1868-1892"
     event: "CED seminar"
