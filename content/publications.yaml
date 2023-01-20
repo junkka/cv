@@ -1,4 +1,18 @@
 references: 
+  - id: junkka2023a
+    title: "Two Centuries of Disability Disadvantages in Swedish Partnerships"
+    author: 
+    - family: Vikström
+      given: L.
+    - family: Junkka
+      given: J.
+    - family: Karhina
+      given: K.
+    container-title: Disability & Society
+    article-journal: true
+    type: "article-journal"
+    issued: 2023
+    doi: 10.1080/09687599.2022.2160924
   - id: junkka2022d
     title: "leafletwrapper - Wrapper for the leaflet package, to simplify interactive visualisations"
     author:
