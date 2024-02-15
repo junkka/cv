@@ -1,4 +1,17 @@
 references: 
+  - id: junkka2024a
+    title: "Temperature- and seasonality-related infectious disease mortality among infants: A retrospective time-series study of Sweden, 1868–1892"
+    author: 
+    - family: Junkka
+      given: J.
+    - family: Hiltunen
+      given: M.
+    container-title: ienna Yearbook of Population Research
+    volume: 22
+    article-journal: true
+    type: "article-journal"
+    issued: 2024
+    doi: 10.1553/p-33g4-pgab
   - id: junkka2023a
     title: "Two Centuries of Disability Disadvantages in Swedish Partnerships"
     author: 
