@@ -1,4 +1,21 @@
 references: 
+  - id: junkka2024c
+    title: "The Dynamic Association between Disability and Parenthood in Sweden"
+    author: 
+    - family: Namatovu
+      given: F.
+    - family: Häggström Gunfridsson
+      given: E.
+    - family: Junkka
+      given: J.
+    - family: Vikström
+      given: L.
+      container-title: "Disability and the Family: Challenges, Coping, Resources, and Resilience"
+    chapter: true
+    type: "article-journal"
+    issued: 2024
+    publisher: Emerald Publishing Limited.
+    issue: Forthcoming
   - id: junkka2024b
     title: "Better off in the city? Economic Outcomes of Rural Out-Migration in Sweden - Sibling Study of Cohorts 1960-1984"
     author: 
@@ -10,7 +27,8 @@ references:
     article-journal: true
     type: "article-journal"
     issued: 2024
-    issue: Forthcoming
+    volume: e2765
+    doi: 10.1002/psp.2765
   - id: junkka2024a
     title: "Temperature- and seasonality-related infectious disease mortality among infants: A retrospective time-series study of Sweden, 1868–1892"
     author: 
