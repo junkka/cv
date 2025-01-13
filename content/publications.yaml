@@ -1,5 +1,5 @@
 references: 
-  - id: junkka2024c
+  - id: junkka20251
     title: "The Dynamic Association between Disability and Parenthood in Sweden"
     author: 
     - family: Namatovu
@@ -10,12 +10,13 @@ references:
       given: J.
     - family: Vikström
       given: L.
-      container-title: "Disability and the Family: Challenges, Coping, Resources, and Resilience"
+    container-title: "Contemporary Perspectives in Family Research"
+    volume: 27
     chapter: true
     type: "article-journal"
-    issued: 2024
+    issued: 2025
     publisher: Emerald Publishing Limited.
-    issue: Forthcoming
+    doi: 10.1108/s1530-353520250000027006
   - id: junkka2024b
     title: "Better off in the city? Economic Outcomes of Rural Out-Migration in Sweden - Sibling Study of Cohorts 1960-1984"
     author: 
