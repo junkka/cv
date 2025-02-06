@@ -1,4 +1,19 @@
 references: 
+  - id: junkka2025b
+    title: "Patterns in Nordic arctic renewable energy transitions: Identifying themes, differences, and gaps through topic modelling"
+    author: 
+    - family: Vikström
+      given: H.
+    - family: Mårald
+      given: E.
+    - family: Junkka
+      given: J.
+    article-journal: false
+    working-paper: true
+    type: "article-journal"
+    URL: https://doi.org/10.2139/ssrn.5095482
+    container-title: Social Science Research Network
+    issued: 2025
   - id: junkka20251
     title: "The Dynamic Association between Disability and Parenthood in Sweden"
     author: 
@@ -81,20 +96,6 @@ references:
     URL: "https://github.com/junkka/ehahelper"
     issued: 2021
     software: true
-  - id: junkka2022b
-    title: "Infectious disease mortality among infants, seasonality and ambient temperature in Sweden, 1868-1892"
-    author: 
-    - family: Junkka
-      given: J.
-    - family: Hiltunen
-      given: M.
-    article-journal: false
-    working-paper: true
-    type: "article-journal"
-    URL: "http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aumu%3Adiva-193107"
-    container-title: CEDAR working papers 
-    volume: 23
-    issued: 2022
   - id: junkka2022a
     title: "Supply or demand?: Institutionalization of the mentally ill in the emerging Swedish welfare state, 1900–1959"
     author: 
