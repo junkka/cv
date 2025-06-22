@@ -1,6 +1,6 @@
 references: 
   - id: junkka2025b
-    title: "Patterns in Nordic arctic renewable energy transitions: Identifying themes, differences, and gaps through topic modelling"
+    title: "Policy silences in Nordic-Arctic energy transitions: A topic-modelling study"
     author: 
     - family: Vikström
       given: H.
@@ -8,11 +8,24 @@ references:
       given: E.
     - family: Junkka
       given: J.
-    article-journal: false
-    working-paper: true
+    article-journal: true
+    working-paper: false
     type: "article-journal"
     URL: https://doi.org/10.2139/ssrn.5095482
-    container-title: Social Science Research Network
+    container-title: Energy policy
+    issued: 2025
+  - id: junkka2025c
+    title: "Decomposition of disability prevalences: Age and rate effects in northern Sweden, 1900–1950"
+    author: 
+    - family: Junkka
+      given: J.
+    - family: Häggström Gunfridsson
+      given: E.
+    - family: Vikström
+      given: L.
+    container-title: Historical Life Course Studies
+    article-journal: true
+    type: "article-journal"
     issued: 2025
   - id: junkka20251
     title: "The Dynamic Association between Disability and Parenthood in Sweden"
