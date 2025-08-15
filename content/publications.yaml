@@ -11,9 +11,11 @@ references:
     article-journal: true
     working-paper: false
     type: "article-journal"
-    URL: https://doi.org/10.2139/ssrn.5095482
+    URL: https://doi.org/10.1016/j.enpol.2025.114746
     container-title: Energy policy
     issued: 2025
+    issue: 114746
+    volume: 206
   - id: junkka2025c
     title: "Decomposition of disability prevalences: Age and rate effects in northern Sweden, 1900–1950"
     author: 
