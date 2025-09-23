@@ -11,7 +11,7 @@ references:
     article-journal: true
     working-paper: false
     type: "article-journal"
-    URL: https://doi.org/10.1016/j.enpol.2025.114746
+    doi: "10.1016/j.enpol.2025.114746"
     container-title: Energy policy
     issued: 2025
     issue: 114746
@@ -26,6 +26,7 @@ references:
     - family: Vikström
       given: L.
     container-title: Historical Life Course Studies
+    doi: "10.51964/hlcs23571"
     article-journal: true
     type: "article-journal"
     issued: 2025
