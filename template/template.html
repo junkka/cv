@@ -180,12 +180,12 @@ $endif$
   <p>
     $author$
   </p>
-  <adress>
-    $info.adress1$<br>
-    $info.adress2$<br>
-    $info.adress3$<br>
-    $info.adress4$
-  </adress>
+  <address>
+    $info.address1$<br>
+    $info.address2$<br>
+    $info.address3$<br>
+    $info.address4$
+  </address>
   <p>
     $info.phone$<br>
     <a href="mailto:#">$info.email$</a><br>
@@ -248,65 +248,52 @@ $endif$
 
 <div class="col-md-12">
   <h2>Publications</h2>
-   <h3>Books and articles</h3> 
   $for(references)$
   $if(references.article-journal)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$). 
-    $references.title$. 
-    <em>$references.container-title$</em>$if(references.volume)$, <em>$references.volume$</em>$endif$$if(references.issue)$($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
-    $if(references.doi)$ doi:<a href="http://dx.doi.org/$references.doi$">$references.doi$</a>$endif$
-    $if(references.URL)$ $references.URL$$endif$ 
-    <!--$if(references.URL)$<a href="$references.URL$">$references.URL$</a>$endif$ -->
+    ($references.issued$).
+    $references.title$.
+    <em>$references.container-title$</em>$if(references.volume)$, <em>$references.volume$</em>$endif$$if(references.issue)$($references.issue$)$endif$$if(references.article-number)$, Article $references.article-number$$else$$if(references.pages)$, $references.pages$$endif$$endif$.
+    $if(references.doi)$ <a href="https://doi.org/$references.doi$">https://doi.org/$references.doi$</a>$endif$
+    $if(references.URL)$ $references.URL$$endif$
   </p>
   $endif$
-  
+
   $if(references.book)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$). 
-    <em>$references.title$</em>.
-    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
-    $if(references.URL)$ $references.URL$$endif$ 
+    ($references.issued$).
+    <em>$references.title$</em>.$if(references.publisher)$ $references.publisher$.$endif$
+    $if(references.URL)$ $references.URL$$endif$
   </p>
   $endif$
-  
+
   $if(references.chapter)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$). 
+    ($references.issued$).
     $references.title$.
-    In $for(references.editor)$$references.editor.family$, $references.editor.given$$sep$, $endfor$ 
-    (Eds.), <em>$references.container-title$.</em>
-    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
-    $if(references.doi)$ doi:<a href="http://dx.doi.org/$references.doi$">$references.doi$</a>$endif$
-    $if(references.URL)$ $references.URL$$endif$ 
+    $if(references.editor)$In $for(references.editor)$$references.editor.family$, $references.editor.given$$sep$, $endfor$ (Eds.), $endif$<em>$references.container-title$</em>$if(references.volume)$ (Vol. $references.volume$$if(references.pages)$, pp. $references.pages$$endif$)$else$$if(references.pages)$ (pp. $references.pages$)$endif$$endif$.$if(references.publisher)$ $references.publisher$.$endif$
+    $if(references.doi)$ <a href="https://doi.org/$references.doi$">https://doi.org/$references.doi$</a>$endif$
+    $if(references.URL)$ $references.URL$$endif$
   </p>
   $endif$
-  
-  $endfor$
 
- <h3>Working papers</h3> 
-  $for(references)$
   $if(references.working-paper)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$). 
+    ($references.issued$).
     $references.title$.
-     <em>$references.container-title$</em>$if(references.volume)$, <em>$references.volume$</em>$endif$$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
-    $if(references.URL)$ $references.URL$$endif$ 
+    <em>$references.container-title$</em>$if(references.volume)$, <em>$references.volume$</em>$endif$$if(references.issue)$($references.issue$)$endif$$if(references.pages)$, $references.pages$$endif$. [Working paper].
+    $if(references.URL)$ $references.URL$$endif$
   </p>
   $endif$
-  $endfor$
 
-
-  <h3>Software</h3>
-  $for(references)$
   $if(references.software)$
   <p class="indented">
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$). <em>$references.title$</em>. $references.URL$
+    ($references.issued$). <em>$references.title$</em> [Software].$if(references.URL)$ $references.URL$$endif$
   </p>
   $endif$
   $endfor$

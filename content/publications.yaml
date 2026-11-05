@@ -1,4 +1,18 @@
-references: 
+references:
+  - id: junkka2026a
+    title: "A demographic and socio-economic portrait of one-person households in Sweden during the 1930s"
+    author:
+    - family: Sandström
+      given: G.
+    - family: Brändström
+      given: A.
+    - family: Junkka
+      given: J.
+    article-journal: true
+    type: "article-journal"
+    doi: "10.1080/00324728.2026.2722377"
+    container-title: Population Studies
+    issued: 2026
   - id: junkka2025b
     title: "Policy silences in Nordic-Arctic energy transitions: A topic-modelling study"
     author: 
@@ -14,7 +28,7 @@ references:
     doi: "10.1016/j.enpol.2025.114746"
     container-title: Energy policy
     issued: 2025
-    issue: 114746
+    article-number: 114746
     volume: 206
   - id: junkka2025c
     title: "Decomposition of disability prevalences: Age and rate effects in northern Sweden, 1900–1950"
@@ -46,7 +60,7 @@ references:
     chapter: true
     type: "article-journal"
     issued: 2025
-    publisher: Emerald Publishing Limited.
+    publisher: Emerald Publishing Limited
     doi: 10.1108/s1530-353520250000027006
   - id: junkka2024b
     title: "Better off in the city? Economic Outcomes of Rural Out-Migration in Sweden - Sibling Study of Cohorts 1960-1984"
@@ -149,9 +163,9 @@ references:
     article-journal: false
     type: "article-journal"
     doi: 10.4324/9780429470059-14
-    container-title: The Routledge Handbook of Contemporary Inequalities and the Life Course 
+    container-title: The Routledge Handbook of Contemporary Inequalities and the Life Course
     issued: 2022
-    adress: "New York"
+    address: "New York"
     publisher: "Routledge"
   - id: junkka2021f
     title: "Ambient temperature and stillbirth risks in northern Sweden, 1880-1950"
@@ -218,9 +232,8 @@ references:
       given: E.
     article-journal: true
     type: "article-journal"
-    container-title: Population and environment 
+    container-title: Population and environment
     issued: 2021
-    volume: " "
     doi: 10.1007/s11111-021-00383-9
   - id: junkka2019d
     title: "db2connect - Connect to IBM DB2 servers"
@@ -230,7 +243,7 @@ references:
     URL: "https://github.com/junkka/db2connect"
     issued: 2019
     software: true
-  - id: junkka2021a
+  - id: junkka2021b
     title: "Climate vulnerability of Swedish newborns: gender differences and time trends of temperature-related neonatal mortality, 1880 – 1950"
     author: 
     - family: Junkka
@@ -315,7 +328,7 @@ references:
       - family: Junkka
         given: J.
     issued: 2018
-    adress: "Umeå"
+    address: "Umeå"
     publisher: "Umeå University"
     URL: "http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-147281"
   - id: junkka2018a

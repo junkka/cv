@@ -104,10 +104,10 @@
   \includegraphics[width=0.25\textwidth]{assets/profile_pic.png}
 \end{wrapfigure}
 
-$info.adress1$\\ % Your address
-$info.adress2$\\ % Your address
-$info.adress3$\\ % Your address
-$info.adress4$\\ % Your address
+$info.address1$\\ % Your address
+$info.address2$\\ % Your address
+$info.address3$\\ % Your address
+$info.address4$\\ % Your address
 [.2cm]
 Phone: \texttt{$info.phone$}\\ % Your phone number
 Email: \href{mailto:#}{$info.email$}\\ % Your email address
@@ -167,64 +167,45 @@ $endfor$
 
 \section*{Publications}
 
-\subsection*{Articles and books}
-
 $for(references)$
 $if(references.article-journal)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$). $references.title$. 
-    \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
-    $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$
-    $if(references.URL)$ $references.URL$$endif$
+    ($references.issued$). $references.title$.
+    \emph{$references.container-title$}$if(references.volume)$, \emph{$references.volume$}$endif$$if(references.issue)$($references.issue$)$endif$$if(references.article-number)$, Article $references.article-number$$else$$if(references.pages)$, $references.pages$$endif$$endif$.
+    $if(references.doi)$ \url{https://doi.org/$references.doi$}$endif$
+    $if(references.URL)$ $references.URL$$endif$\par
 $endif$
 
 $if(references.book)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
     ($references.issued$).
-    \emph{$references.title$}.
-    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
-    $if(references.URL)$  $references.URL$$endif$
+    \emph{$references.title$}.$if(references.publisher)$ $references.publisher$.$endif$
+    $if(references.URL)$ $references.URL$$endif$\par
 $endif$
-
 
 $if(references.chapter)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$).
-    $references.title$.
-    In $for(references.editor)$$references.editor.family$, $references.editor.given$$sep$, $endfor$ 
-    (Eds.), \emph{$references.container-title$.}.
-    $if(references.publisher)$ $references.publisher$$endif$$if(references.adress)$: $references.adress$$endif$
-    $if(references.doi)$ \\doi:\url{http://dx.doi.org/$references.doi$}$endif$
-    $if(references.URL)$  $references.URL$$endif$
+    ($references.issued$). $references.title$.
+    $if(references.editor)$In $for(references.editor)$$references.editor.family$, $references.editor.given$$sep$, $endfor$ (Eds.), $endif$\emph{$references.container-title$}$if(references.volume)$ (Vol. $references.volume$$if(references.pages)$, pp. $references.pages$$endif$)$else$$if(references.pages)$ (pp. $references.pages$)$endif$$endif$.$if(references.publisher)$ $references.publisher$.$endif$
+    $if(references.doi)$ \url{https://doi.org/$references.doi$}$endif$
+    $if(references.URL)$ $references.URL$$endif$\par
 $endif$
 
-
-$endfor$
-
-% \vspace{20pt}
-
-\subsection*{Working papers}
-
-$for(references)$
 $if(references.working-paper)$
   \years{$references.issued$}
     $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
-    ($references.issued$).
-    $references.title$.
-    \emph{$references.container-title$$if(references.volume)$, $references.volume$ $endif$}$if(references.issue)$ ($references.issue$)$endif$$if(references.page)$, $references.page$$endif$.
-    $if(references.URL)$  $references.URL$\\$endif$
+    ($references.issued$). $references.title$.
+    \emph{$references.container-title$}$if(references.volume)$, \emph{$references.volume$}$endif$$if(references.issue)$($references.issue$)$endif$$if(references.pages)$, $references.pages$$endif$. [Working paper].
+    $if(references.URL)$ $references.URL$$endif$\par
 $endif$
-$endfor$
 
-\subsection*{Software}
-
-$for(references)$
 $if(references.software)$
-\years{$references.issued$}
-  $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$ ($references.issued$). \emph{$references.title$}. $references.URL$\\
+  \years{$references.issued$}
+    $for(references.author)$$references.author.family$, $references.author.given$$sep$, $endfor$
+    ($references.issued$). \emph{$references.title$} [Software].$if(references.URL)$ $references.URL$$endif$\par
 $endif$
 $endfor$
 
